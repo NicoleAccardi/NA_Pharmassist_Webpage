@@ -1,0 +1,70 @@
+.hero h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #545C65;
+}
+
+.hero h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #545C65;
+}
+
+.hero a{
+	background-color: #81E5CE;
+  	border: 5px solid #81E5CE;
+  	border-radius: 7px;
+	box-sizing: border-box;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.hero li{
+	list-style: none;
+}
+
+.faq button{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #545C65;
+}
+
+.faq p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #545C65;
+	line-height: 1.5rem;
+}
+
+footer p{
+	font-size: 2rem;
+	color: #FFFFFF;
+	letter-spacing: 1rem;
+}
+
+footer h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 1rem;
+	text-align: center;
+}
+
+footer h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75rem;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 1rem;
+	text-align: center;
+}

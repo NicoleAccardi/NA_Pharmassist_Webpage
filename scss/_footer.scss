@@ -1,0 +1,25 @@
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2fr 1fr;
+	background-color: #545C65;
+}
+
+.social_medias{
+	grid-column: 1;
+	grid-row: 1;
+	align-self: center;
+	justify-self: center;
+}
+
+.contact{
+	grid-column: 2;
+	grid-row: 1;
+}
+
+footer h4{
+	grid-column: 1 / span 2;
+	grid-row: 2;
+	align-self: center;
+	justify-self: center;
+}

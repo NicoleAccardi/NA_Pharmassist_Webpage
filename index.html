@@ -29,7 +29,71 @@
     </nav>
   </header>
 
+  <div class="hero">
+    <h1>Tracking Medication Has Never Been So Easy</h1>
+    <h2>See for yourself</h2>
+    <ul>
+      <li><a href="#" class="button">Download</a></li>
+    </ul>
+  </div>
 
+  <div class="faq">
+    <div class="actual_faq">
+    <button class="accordion">How many medications can I add?</button>
+      <div class="panel">
+        <p>You can add an unlimited number of medications.</p>
+      </div>
+
+      <button class="accordion">Is this app for IOS or Android?</button>
+      <div class="panel">
+        <p>Currently, Pharmassist is only availble for IOS. We are working on expanding to Android.</p>
+      </div>
+
+      <button class="accordion">How many reminders can I set?</button>
+      <div class="panel">
+        <p>You can set one reminder for every time you have to take the medication a day. For example, if you have to take the medication once a day then you will get to set one reminder, if you have to take the medication twice a day you will get to set two reminders and so on.</p>
+      </div>
+
+      <button class="accordion">What if I don't need to take my medication everyday?</button>
+      <div class="panel">
+        <p>Our detailed medication page allows for users to select the days of the week they need to take their medication.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="social_medias">
+      <p><i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i> <i class="fab fa-facebook-f"></i></p>
+    </div>
+    <div class="contact">
+      <h3>(401)123-4567</h3>
+      <h3>info@pharmassist.com</h3>
+      <h3>1 Pharmassist St. Providence, RI 02865</h3>
+    </div>
+    <h4>&copy Pharmassist 2020</h4>
+  </footer>
+
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+  <script src="https://kit.fontawesome.com/bdcd8ec971.js" crossorigin="anonymous"></script>
+  
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
