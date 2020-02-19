@@ -1,0 +1,89 @@
+.stripe{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 6rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	background-color: #E3F9F4;
+}
+
+.stripe .benefit1{
+	grid-column: 1;
+	grid-row: 1;
+	align-self: center;
+	justify-self: center;
+	border: 2px solid #FFFFFF;
+	padding: 1.5rem;
+}
+
+.stripe .benefit2{
+	grid-column: 2;
+	grid-row: 1;
+	align-self: center;
+	justify-self: center;
+	border: 2px solid #FFFFFF;
+	padding: 1.5rem;
+}
+
+.stripe .benefit3{
+	grid-column: 3;
+	grid-row: 1;
+	align-self: center;
+	justify-self: center;
+	border: 2px solid #FFFFFF;
+	padding: 1.5rem;
+}
+
+.stripe img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width: 50em){
+	.stripe{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-gap: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.stripe .benefit1{
+		grid-column: 1;
+		grid-row: 1;
+		align-self: center;
+		justify-self: center;
+		border: 2px solid #FFFFFF;
+		padding: 1.5rem;
+	}
+
+	.stripe .benefit2{
+		grid-column: 1;
+		grid-row: 2;
+		align-self: center;
+		justify-self: center;
+		border: 2px solid #FFFFFF;
+		padding: 1.5rem;
+	}
+
+	.stripe .benefit3{
+		grid-column: 1;
+		grid-row: 3;
+		align-self: center;
+		justify-self: center;
+		border: 2px solid #FFFFFF;
+		padding: 1.5rem;
+	}
+	.stripe img{
+		object-fit: cover;
+		height: auto;
+		width: 100%;
+	}
+}
+

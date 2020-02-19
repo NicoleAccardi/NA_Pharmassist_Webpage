@@ -2,12 +2,15 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #545C65;
+	font-size: 2.5rem;
+	text-align: center;
 }
 
 .hero h2{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #545C65;
+	text-align: center;
 }
 
 .hero a{
@@ -28,6 +31,44 @@
 
 .hero li{
 	list-style: none;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.feature1 h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.25rem;
+	font-weight: 700;
+	color: #81E5CE;
+	line-height: 2.75rem;
+	text-align: center;
+}
+
+.feature1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: #545C65;
+	line-height: 1.75rem;
+	text-align: center;
+}
+
+.stripe h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #545C65;
+	line-height: 2rem;
+	text-align: center;
+}
+
+.stripe p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #545C65;
+	line-height: 1.5rem;
+	text-align: center;
 }
 
 .faq button{
